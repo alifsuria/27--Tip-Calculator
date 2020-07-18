@@ -1,0 +1,23 @@
+body {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.labeling {
+  font-size: 2vw;
+  font-weight: 600;
+  padding: 0;
+}
+
+
+@media (min-width: 600px) {
+  .card {
+    padding: 8px 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card {
+    padding: 16px 48px;
+  }
+}
